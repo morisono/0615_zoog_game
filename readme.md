@@ -1,4 +1,5 @@
-![demo](videos/demo.mov)
+<div><video controls src="videos/demo.mov" muted="false"></video></div>
+
 
 # Zoog Game
 
