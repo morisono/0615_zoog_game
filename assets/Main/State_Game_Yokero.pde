@@ -9,8 +9,8 @@ class State_Game_Yokero extends State {
   boolean gameclear, gameover;
 
   State_Game_Yokero(int stage, int count_all, int t_all) {
-    player.close();
-    player = minim.loadFile("../../sounds/bensound-funnysong.mp3");
+    // player.close();
+    // player = minim.loadFile("../../sounds/bensound-funnysong.mp3");
     this.stage = stage;
     this.count_all = count_all;
     this.t_all = t_all;

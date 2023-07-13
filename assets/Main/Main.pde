@@ -12,11 +12,11 @@ void setup() {
   // minim = new Minim(this);
   // player = minim.loadFile("../../sounds/bensound-buddy.mp3");
   // player.play();
-  bg1 = loadImage("../../images/town.png"); // title
-  bg2 = loadImage("../../images/city.png");   // tobe
-  bg3 = loadImage("../../images/forest.png"); // nerae
-  bg4 = loadImage("../../images/city.png"); // yokero
-  bg5 = loadImage("../../images/mountain.png"); // hanekaese
+  bg1 = loadImage("images/town.png"); // title
+  bg2 = loadImage("images/city.png");   // tobe
+  bg3 = loadImage("images/forest.png"); // nerae
+  bg4 = loadImage("images/city.png"); // yokero
+  bg5 = loadImage("images/mountain.png"); // hanekaese
   font1 = createFont("Comic Sans MS", 48, true);
   font2 = createFont("Yu Gothic", 48, true);
   textFont(font1);

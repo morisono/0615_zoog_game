@@ -10,8 +10,8 @@ class State_Game_Nerae extends State {
   boolean gameclear, gameover;
 
   State_Game_Nerae(int stage, int count_all, int t_all) {
-    player.close();
-    player = minim.loadFile("../../sounds/bensound-epic.mp3");
+    // player.close();
+    // player = minim.loadFile("../../sounds/bensound-epic.mp3");
     this.stage = stage;
     this.count_all = count_all;
     this.t_all = t_all;
