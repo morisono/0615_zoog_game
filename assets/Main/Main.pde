@@ -1,7 +1,7 @@
-import ddf.minim.*;
+// import ddf.minim.*;
 
-Minim minim;
-AudioPlayer player;
+// Minim minim;
+// AudioPlayer player;
 PImage bg1, bg2, bg3, bg4, bg5;
 PFont font1, font2;
 State state;
@@ -9,9 +9,9 @@ State state;
 void setup() {
   size(800, 800);
   frameRate(120);
-  minim = new Minim(this);
-  player = minim.loadFile("../../sounds/bensound-buddy.mp3");
-  player.play();
+  // minim = new Minim(this);
+  // player = minim.loadFile("../../sounds/bensound-buddy.mp3");
+  // player.play();
   bg1 = loadImage("../../images/town.png"); // title
   bg2 = loadImage("../../images/city.png");   // tobe
   bg3 = loadImage("../../images/forest.png"); // nerae
@@ -24,6 +24,5 @@ void setup() {
 }
 
 void draw() {
-
   state = state.load();
 }
