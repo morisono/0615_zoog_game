@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zooggame</title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <script src="assets/processing.js"></script>
+  </head>
+
+  <body class="stackedit">
+    <div class="stackedit__left">
+      <div class="stackedit__toc">
+        <ul>
+          <li>
+            <a href="#zooggame">Zooggame</a>
+            <ul>
+              <li>
+                <ul>
+                  <li></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#仕様">仕様</a>
+                <ul>
+                  <li></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#クラス">クラス</a>
+              </li>
+              <li>
+                <a href="#役割分担">役割分担</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="stackedit__right">
+      <div class="stackedit__html">
+        <h1 id="zooggame">
+          <em>
+            <strong>Zooggame</strong>
+          </em>
+        </h1>
+        <canvas
+          id="canvas"
+          data-processing-sources="assets/Zooggame/Zoog_Bouncing.pde assets/Zooggame/State.pde assets/Zooggame/Board.pde assets/Zooggame/State_Title.pde assets/Zooggame/Count.pde assets/Zooggame/Sight.pde assets/Zooggame/Zoog.pde assets/Zooggame/State_End_Youwon.pde assets/Zooggame/State_Game.pde assets/Zooggame/Time.pde assets/Zooggame/Zooggame.pde assets/Zooggame/Zoog_Stopping.pde assets/Zooggame/State_End_Gameover.pde assets/Zooggame/Zoog_Jiggling.pde"
+        ></canvas>
+        <h4 id="提出日-20180615">提出日 2018/06/15</h4>
+        <h4 id="source">
+          <a href="tree.html">Source</a>
+        </h4>
+        <hr />
+        <h2 id="仕様">仕様</h2>
+        <h4 id="ルール">ルール</h4>
+        <p>Zoogを倒してステージを進めよう。</p>
+        <h4 id="操作">操作</h4>
+        <p>
+          開始 : [Space] <br />
+          次へ進む : [G] <br />
+          タイトルへ戻る:[R]
+        </p>
+        <hr />
+        <h2 id="クラス">クラス</h2>
+        <p>
+          <img src="images/uml.png" alt="classDiagram" />
+          使用したUMLモデリングツール :
+          <a href="https://yuml.me/diagram/scruffy/class/drawp">yuml.me</a> &lt;
+          uml.txt
+        </p>
+        <h2 id="役割分担">役割分担</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th align="center"></th>
+              <th align="center">Zooggame</th>
+              <th align="center">State</th>
+              <th align="center">State_Title</th>
+              <th align="center">State_Game</th>
+              <th align="center">State_End_Youwon</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center">5415031</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+            </tr>
+            <tr>
+              <td align="center">5415082</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+            </tr>
+            <tr>
+              <td align="center">5416001</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th align="center"></th>
+              <th align="center">Count</th>
+              <th align="center">Time</th>
+              <th align="center">Board</th>
+              <th align="center">NormalZoog</th>
+              <th align="center">StoppingZoog</th>
+              <th align="center">SmartZoog</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center">5415031</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+            </tr>
+            <tr>
+              <td align="center">5415082</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+            </tr>
+            <tr>
+              <td align="center">5416001</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+              <td align="center">○</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
